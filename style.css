@@ -12,15 +12,18 @@ body
     justify-content: center;
     align-items: center;
     min-height: 80vh;
+    /* background: linear-gradient(to left, purple, black); */
+    background: url(pexels-felix-mittermeier-956999.jpg);
 }
 
 .content-page
 {
-    background-color: rgb(136, 255, 0);
+    background: transparent;
     width: 420px;
     /* height: 550px; */
-    border: 1px solid black;
-    box-shadow: 50px 10px  rgb(117, 117, 117);
+    border: 1px solid rgb(227, 227, 227);
+    box-shadow: 20px 10px 15px rgb(20, 20, 20);
+    backdrop-filter: blur(5px);
     border-radius: 18px;
     padding: 30px 40px;
     text-align: center;
@@ -29,7 +32,7 @@ body
 .login_paragraph
 {
     font-size: 40px;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -38,11 +41,11 @@ body
     position: relative;
     width: 100%;
     height: 50px;
-    margin: 30px 0px;
+    margin: 30px 0px 0px;
     border-radius: 10px;
     background: transparent;
     font-size: 16px;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     padding: 20px 45px 20px 10px;
     /* width: 50px; */
 }
@@ -52,20 +55,64 @@ body
     position: relative;
     width: 100%;
     height: 50px;
-    margin: 30px 0px;
+    margin: 15px 0px 10px;
     border-radius: 10px;
     background: transparent;
     font-size: 16px;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     padding: 20px 45px 20px 10px;
 }
 
 .email-input::placeholder
 {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .pass-input::placeholder
 {
-    color: black;
+    color: rgb(255, 255, 255);
+}
+
+.login
+{
+    margin: 0px;
+}
+
+.login-button
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 20px;
+    color: white;
+}
+
+.register
+{
+    color: rgb(242, 242, 242);
+}
+.forgot
+{
+    color: rgb(250, 250, 250);
+}
+
+.forget-password
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 10px;
+    color: white;
+}
+
+.register-link
+{
+    color: white;
+    padding-top: 5px;
+}
+
+label input
+{
+    background-color: aquamarine;
 }
