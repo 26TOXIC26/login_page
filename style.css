@@ -22,7 +22,7 @@ body
     background: transparent;
     width: 420px;
     /* height: 550px; */
-    border: 3px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     box-shadow: 20px 10px 15px rgb(20, 20, 20);
     backdrop-filter: blur(25px);
     border-radius: 18px;
@@ -32,9 +32,10 @@ body
 
 .login_paragraph
 {
-    font-size: 40px;
+    font-size: 50px;
     color: rgb(0, 0, 0);
     text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .boxinput
@@ -47,15 +48,14 @@ body
     border-radius: 10px;
     background: transparent;
     font-size: 16px;
-    border: 3px solid rgb(0, 0, 0);
+    border: 1.5px solid rgb(0, 0, 0);
     padding: 20px 45px 20px 10px;
     /* width: 50px; */
 }
 
-
 .boxinput::placeholder
 {
-    color: rgb(72, 72, 72);
+    color: rgb(10, 9, 9);
 }
 
 .login
@@ -69,7 +69,7 @@ body
     height: 50px;
     border-radius: 15px;
     background: transparent;
-    border: 3px solid rgb(0, 0, 0);
+    border: 1.5px solid rgb(0, 0, 0);
     font-size: 20px;
     color: rgb(0, 0, 0);
 }
@@ -104,7 +104,7 @@ body
     text-align: center;
     background: transparent;
     backdrop-filter: blur(4px);
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 15px;
 }
 
